@@ -44,30 +44,39 @@ body {
   .glide__arrows {
     position: absolute;
     bottom: 50px;
-    width: 15%;
+    width: 13rem;
     display: flex;
-    justify-content: center;
-    margin-left: 600px;
-    border-radius: 100%;
-    
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  
   .glide__arrow {
-    background-color: blue;
+    background-color: #39a4df !important;
     color: #ee0b0b;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 100% !important;
     text-align: center;
     line-height: 30px;
     cursor: pointer;
     font-size: 30px;
     position: relative;
-    display: flex;
+    display: flex !important;
     justify-content: center;
+    align-items: center;
+  }
+
+  .fa-chevron-left, .fa-chevron-right {
+    font-size: 10px;
+
   }
 
   .glide__slides {
-    position: relative;
+    position: relative; 
   }
   .glide__slide {
     position: relative;
